@@ -10,7 +10,7 @@ class Person:
     def __init__(self, name, age):
         self.name = name
         self.phoneNumber = age
-        print('(Создан контакт: {})'.format(self.name))
+        print('(contact created: {})'.format(self.name))
 
     def tell(self):
         """Вывести информацию."""
@@ -26,7 +26,7 @@ def add(name, phone):
 def delete(dictionary, deleteName):
     for i in dictionary:
         if i.name == deleteName:
-            print('(Удален контакт: {})'.format(i.name))
+            print('(contact deleted: {})'.format(i.name))
             dictionary.pop(i)
             break
 
@@ -38,7 +38,7 @@ def view(dictionary):
 
 def longTimeUse(file, dictionary):
     k = open(file, 'wb')
-    pickle.dump(dictionary, k)  # помещаем объект в файл
+    pickle.dump(dictionary, k)
     k.close()
 
 
