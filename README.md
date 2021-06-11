@@ -5,7 +5,7 @@ the code allows you to save contacts for long-term storage in a text document.
 <br />
 <br />
 <br />
-First steps:
+first steps:
 
 download a .py file here - https://drive.google.com/file/d/1Z7tDGVtAcUFpT_Mn-F8TmLGZGh_QAxuZ/view?usp=sharing
 
