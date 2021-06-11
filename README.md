@@ -13,18 +13,23 @@ download and install last python version from python.org (if you haven't install
 
 if you use python version 3.5 and lower, you need to install a python pickle module or update your version of python
 
+create a txt file and copy the path to it
+
+replace value of var 'BOOK' to your path
 
 
 how to use:
 
-To perform the add operation, enter the name, phone number and command in the input field 
+to perform the add operation, enter the name, phone number and command in the input field 
 in the following format: add-name-phone. 
 
-To perform the delete operation, enter the name, phone number, and command in the input field 
+to perform the delete operation, enter the name, phone number, and command in the input field 
 in the following format: delete-name.
 
-It is also possible to view already recorded 
+it is also possible to view already recorded 
 contacts from the file, you just need to enter the 'view'command
+
+to stop execution enter 'stop'
 
 
 
